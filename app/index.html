@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Test | Nekoula Haddad</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"
+        />
+        <style type="text/css">
+            .home-page {
+                background-color: #313131;
+                border-radius: 20px;
+            }
+            @media only screen and (min-width: 1199px) {
+                .home-page-container {
+                    display: flex;
+                    justify-content: center;
+                }
+                .home-page {
+                    width: 50%;
+                }
+            }
+            @media only screen and (max-width: 480px) {
+                .home-page {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="home-page-container">
+            <div class="home-page">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    </body>
+</html>
