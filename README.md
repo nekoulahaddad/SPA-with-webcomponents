@@ -2,4 +2,4 @@
 to run the app use the following steps:
 - npm install
 - npm start 
-- the will run on localhost:8080 
+- the app will run on localhost:8080 
