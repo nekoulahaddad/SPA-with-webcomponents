@@ -183,11 +183,11 @@ export function picker() {
                 cmyk: false,
                 input: true,
                 clear: false,
-                save: true,
+                save: false,
             },
         },
     });
-    pickr.on("save", (...args) => {
+    pickr.on("change", (...args) => {
         let color = args[0].toHEXA().toString();
         window.localStorage.setItem("choosenColor", color);
     });
