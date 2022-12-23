@@ -6,7 +6,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "npx webpack-dev-server",
+    "start": "npm i && webpack-dev-server",
     "build": "rm -rf dist && webpack --config webpack.config.prod.js",
     "prod": "cp serve.js dist/serve.js && node serve.js"
   },
