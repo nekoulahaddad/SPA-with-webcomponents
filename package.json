@@ -6,9 +6,9 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "npm i && webpack-dev-server",
+    "dev": "webpack-dev-server",
     "build": "rm -rf dist && webpack --config webpack.config.prod.js",
-    "prod": "cp serve.js dist/serve.js && node serve.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.7.0",
