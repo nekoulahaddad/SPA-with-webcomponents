@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "rm -rf dist && webpack --config webpack.config.prod.js",
+    "build": "del -rf dist && webpack --config webpack.config.prod.js",
     "start": "node index.js"
   },
   "dependencies": {
