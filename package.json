@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "npx webpack-dev-server",
-    "build": "del -rf dist && webpack --config webpack.config.prod.js",
+    "build": "rm -rf dist && webpack --config webpack.config.prod.js",
     "prod": "cp serve.js dist/serve.js && node serve.js"
   },
   "dependencies": {
