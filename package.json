@@ -6,8 +6,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "rm -rf dist && webpack --config webpack.config.prod.js",
+    "start": "npx webpack-dev-server",
+    "build": "del -rf dist && webpack --config webpack.config.prod.js",
     "prod": "cp serve.js dist/serve.js && node serve.js"
   },
   "dependencies": {
@@ -27,6 +27,6 @@
     "path": "^0.12.7",
     "uglifyjs-webpack-plugin": "^0.4.3",
     "webpack": "^2.5.1",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.11.5"
   }
 }
