@@ -71,17 +71,18 @@ export class EditItem extends HTMLElement {
         }
 
         .EditItemButton{
-          color:#ffffff;
+          color:#A0A0A0;
           margin:20px;
-          border: 1px solid #53CBF1;
-          width:220px;
-          height: 35px;
+          border: 1px solid #5f5f5f;
+          width:22.25em;
+          height: 40px;
           border-radius:20px;
           text-decoration: none;
           display: inline-flex;
           align-items: center; 
           justify-content:center;
-          background-color:#53CBF1;
+          background-color: #424242;
+          cursor:pointer
         }
         .button_container{
           width:100%;

@@ -151,9 +151,9 @@ export class Dashboard extends HTMLElement {
             user-select: none;
         }
         .addItemButton{
-          color:#ffffff;
+          color:#A0A0A0;
           margin:20px;
-          border: 1px solid #53CBF1;
+          border: 1px solid #5f5f5f;
           width:220px;
           height: 35px;
           border-radius:20px;
@@ -161,6 +161,7 @@ export class Dashboard extends HTMLElement {
           display: inline-flex;
           align-items: center; 
           justify-content:center;
+          background-color: #424242;
         }
         .table_labels{
           color:#ffffff;
